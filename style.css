@@ -63,10 +63,10 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 30px 20px;
+    padding: 17px 19px;
     text-decoration: none;
-    color: #333;
-    font-size: 20px; /* Defina o tamanho da fonte desejado, por exemplo, 16px */
+    color: #000000;
+    font-size: 18px; /* Defina o tamanho da fonte desejado, por exemplo, 16px */
 }
 
 .dropdown-menu {
@@ -87,4 +87,19 @@ nav ul li a {
 
 .arrow {
     font-size: 0.8em;
+}
+footer {
+    background-color: #1631ad;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-images {
+    margin-bottom: 20px;
+}
+
+.footer-images img {
+    width: 200px; /* Defina o tamanho desejado para as imagens */
+    margin: 0 20px; /* Adicione margem entre as imagens */
 }
