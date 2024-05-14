@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escola Bueno Brandão</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,48 +14,48 @@
             <div class="social-links">
                 <a href="#"><img src="instagram.jpg.png" alt="instagram " width="40" height="40"</a>
                 <a href="#"><img src="zapzap.jpg.png" alt="instagram " width="40" height="40"</a>
+                
             </div>
-        </div>
+            </div>
         <div class="search-bar">
             <input type="text" placeholder="Pesquisar...">
             <button><img src="buenologo.png" width="200px"  alt="Search"></button> 
         </div>
     </header>
 
-           <nav>
+    <nav>
         <ul>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle">Segmentos <span class="arrow">&#9660;</span></a>
                 <ul class="dropdown-menu">
-                    
                     <li><a href="ensinotecnico.html">Ensino Médio (Técnico em Desenvolvimento de Sistema)</a></li>
                     <li><a href="fundamentalemedio.html">Ensino Fundamental e Médio (Regular)</a></li>
                     <li><a href="eja.html">Educação de Jovens e Adultos (EJA)</a></li>
                     <li><a href="uniformes.html">Uniformes</a></li>
                 </ul>
             </li>
-            
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Alunos <span class="arrow">&#9660;</span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Notas</a></li>
-                                <li><a href="#">Grade Horária</a></li>
-                                <li><a href="#">Frequência</a></li>
-                                <li><a href="#">Eventos</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Matrículas/Rematrículas <span class="arrow">&#9660;</span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Informações/Contatos</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Portal do Professor <span class="arrow">&#9660;</span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Diário Eletrônico</a></li>
-                                <li><a href="#">Notas</a></li>
-                                <li><a href="#">Caderno de Ocorrência</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Alunos <span class="arrow">&#9660;</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Notas</a></li>
+                    <li><a href="#">Grade Horária</a></li>
+                    <li><a href="#">Frequência</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Matrículas/Rematrículas <span class="arrow">&#9660;</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Informações/Contatos</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Portal do Professor <span class="arrow">&#9660;</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Diário Eletrônico</a></li>
+                    <li><a href="#">Notas</a></li>
+                    <li><a href="#">Caderno de Ocorrência</a></li>
+                </ul>
             </li>
         </ul>
     </nav> 
@@ -65,16 +66,134 @@
         Para mais informações sobre nossa escola e os programas oferecidos, entre em contato com a direção da escola ou siga nossas redes sociais. Estamos comprometidos em proporcionar uma educação de qualidade e preparar nossos alunos para um futuro promissor.</p>
     </div>
 
-    <div class="image-container">
-        <img src="mustang.jpg" alt="Descrição da imagem 1">
-        <img src="bmw.jpg" alt="Descrição da imagem 2">
+    <div class="slider">
+        <div class="slides">
+            <!--Radio Buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--Fim Radio Buttons-->
+
+            <!--Slide images-->
+            <div class="slide first">
+                <img src="mustang.jpg" alt="Imagem 1" />
+            </div>
+            <div class="slide">
+                <img src="bmw.jpg" alt="Imagem 2" />
+            </div>
+            <div class="slide">
+                <img src="portas.jpg" alt="Imagem 3" />
+            </div>
+            <div class="slide">
+                <img src="ferrari.jpg" alt="Imagem 4" />
+            </div>
+            <!--Fim Slide images-->
+
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            
+
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
     </div>
-</div>
+
+                
+    </head>
+<body>
+    <main>
+        
+    </main>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Logo</h1>
+                <p>Escola Estadual Bueno Brandão</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Soluções de Problemas</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Soluções</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Mande seu Ticket</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Chat</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Camisetas</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">.....</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">.....</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">.....</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+
+                <p>
+                    Digite seu e-mail para 
+                    ser notificado sobre nossas Atualizações Futuras.
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 Todos os Direitos Reservados
+        </div>
+    </footer>
+
     
-    
-    
-    
-    
+</body>
+</html>
+
     
 
     <script src="script.js"></script>
