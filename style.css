@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,19 +15,131 @@ header {
     padding: 20px;
 }
 
-.logo {
+
+
+.loader-container {
+    position: relative;
+}
+
+.loader {
     display: flex;
-    align-items: center;
-}
-
-.logo h1 {
-    margin: 0;
-}
-
-.social-links a {
+    font-size: 2rem;
     color: white;
-    text-decoration: none;
-    margin-left: 20px;
+    position: relative;
+}
+
+span {
+    animation: blur 4s infinite;
+  margin:0.7rem;
+}
+
+@keyframes blur {
+    0% {
+        filter: blur(0);
+    }
+    25% {
+        filter: blur(1px);
+    }
+    50% {
+        filter: blur(5px);
+    }
+    75% {
+        filter: blur(1px);
+    }
+    100% {
+        filter: blur(0);
+    }
+}
+
+.loader span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.loader span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.loader span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+.loader span:nth-child(4) {
+    animation-delay: 1s;
+}
+
+.loader span:nth-child(5) {
+    animation-delay: 1.4s;
+}
+
+.loader span:nth-child(6) {
+    animation-delay: 1.8s;
+}
+.loader span:nth-child(7) {
+    animation-delay: 2.0s;
+}
+.loader span:nth-child(8) {
+    animation-delay: 2.2s;
+}
+.loader span:nth-child(9) {
+    animation-delay: 2.4s;
+}
+.loader span:nth-child(10) {
+    animation-delay: 2.6s;
+}
+.loader span:nth-child(11) {
+    animation-delay: 2.8s;
+}
+.loader span:nth-child(12) {
+    animation-delay: 3.0s;
+}
+.loader span:nth-child(13) {
+    animation-delay: 3.2s;
+}
+.loader span:nth-child(14) {
+    animation-delay: 3.4s;
+}
+.loader span:nth-child(15) {
+    animation-delay: 3.6s;
+}
+.loader span:nth-child(16) {
+    animation-delay: 3.8s;
+}
+.loader span:nth-child(17) {
+    animation-delay: 4.0s;
+}
+.loader span:nth-child(18) {
+    animation-delay: 4.2s;
+}
+.loader span:nth-child(19) {
+    animation-delay: 4.4s;
+}
+.loader span:nth-child(20) {
+    animation-delay: 4.6s;
+}
+.loader span:nth-child(21) {
+    animation-delay: 4.8s;
+}
+.loader span:nth-child(22) {
+    animation-delay: 5.0s;
+}
+.loader span:nth-child(23) {
+    animation-delay: 5.2s;
+}
+.loader span:nth-child(24) {
+    animation-delay: 5.4s;
+}
+
+#artext {
+background: linear-gradient(to left,
+#ffffff, #0015ff, #ffffff);
+background-clip: text;
+display: inline;
+color: transparent;
+animation: animated 5s linear infinite;
+
+}
+@keyframes animated{
+    to {background-position-x: 161px;}
 }
 
 .search-bar {
@@ -37,7 +151,7 @@ header {
 .search-bar input {
     padding: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .search-bar button {
@@ -52,7 +166,7 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10;
     margin: 0;
 }
 
@@ -63,7 +177,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 17px 19px;
+    padding: 15px 20px;
     text-decoration: none;
     color: #000000;
     font-size: 18px; /* Defina o tamanho da fonte desejado, por exemplo, 16px */
@@ -74,7 +188,7 @@ nav ul li a {
     position: absolute;
     z-index: 1;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
 }
 
 .dropdown-menu li {
@@ -86,10 +200,10 @@ nav ul li a {
 }
 
 .arrow {
-    font-size: 0.8em;
+    font-size: 0em;
 }
 .main-text {
-    text-align: center;
+    text-align: center;    
     margin-top: 50px; /* Ajuste conforme necessário para posicionar o texto na página */
     padding: 20px;
     background-color: rgb(255, 255, 255); /* Fundo branco com transparência */
@@ -268,6 +382,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    
 }
 
 #footer_contacts h1 {
@@ -438,6 +553,7 @@ footer {
     color: #ff0180;
     font-size: 1.5em;
     line-height: 1.6;
+
 }
 
 .box p {
