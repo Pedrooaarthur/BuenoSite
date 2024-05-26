@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escola Bueno Brandão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Escola Estadual Bueno Brandão</h1>
-            <div class="social-links">
-                <a href="#"><img src="instagram.jpg.png" alt="instagram " width="40" height="40"</a>
-                <a href="#"><img src="zapzap.jpg.png" alt="instagram " width="40" height="40"</a>
-                
+         
+        <div class="loader-container">
+            <div class="loader">
+                <span>E</span>
+                <span>S</span>
+                <span>C</span>
+                <span>O</span>
+                <span>L</span>
+                <span>A</span>
+                <span> </span>
+                <span>E</span>
+                <span>S</span>
+                <span>T</span>
+                <span>A</span>
+                <span>D</span>
+                <span>U</span>
+                <span>A</span>
+                <span>L</span>
+                <span> </span>
+                <span>B</span>
+                <span>U</span>
+                <span>E</span>
+                <span>N</span>
+                <span>O</span>
+                <span> </span>
+                <span>B</span>
+                <span>R</span>
+                <span>A</span>
+                <span>N</span>
+                <span>D</span>
+                <span>Ã</span>
+                <span>O</span>
+
             </div>
-            </div>
+        </div>
         <div class="search-bar">
             <input type="text" placeholder="Pesquisar...">
             <button><img src="buenologo.png" width="200px"  alt="Search"></button> 
+        </div>
+    
+
         </div>
     </header>
 
@@ -123,48 +154,202 @@
         <div class="content">
             <div class="box">
                 <h2>DESENVOLVIMENTO DE APLICATIVOS</h2>
-                <br>
-
+                <br>                
                 <img src="app.jgp.jpg" alt="Desenvolvimento de Aplicativos" style="width:80%; height: auto; border-radius:20px;">
                                 <p>Os alunos são introduzidos ao desenvolvimento de aplicativos para diferentes plataformas, como web, mobile e desktop. Eles aprendem a criar interfaces amigáveis e a integrar funcionalidades complexas, utilizando ferramentas e frameworks específicos. A disciplina enfatiza a importância da experiência do usuário (UX) e da interface do usuário (UI).</p>
+                                <button onclick="abrirModal('#modal1')">Sobre</button>
             </div>
             <div class="box">
+                
                 <h2>FRONT-END 2</h2>
                 <br>
                 <img src="front.jpg" alt="Desenvolvimento de Aplicativos" style="width:80%; height: auto; border-radius:20px;">
                 <p>Aqui, os alunos se aprofundam nas tecnologias de front-end, aprendendo a desenvolver interfaces interativas e responsivas. São abordados tópicos avançados em HTML, CSS, JavaScript, e frameworks modernos como React, Angular ou Vue.js. O objetivo é preparar os alunos para criar experiências de usuário dinâmicas e eficientes.</p>
+                <button onclick="abrirModal('#modal2')">Sobre</button>
             </div>
             <div class="box">
                 <h2>SEGMENTAÇÃO DE SOFTWARE</h2>
                 <br>
                 <img src="software.jpg" alt="Desenvolvimento de Aplicativos" style="width:80%; height: auto; border-radius:20px;">
                 <p>Esta disciplina ensina técnicas para dividir sistemas complexos em módulos menores e mais gerenciáveis. Os alunos aprendem sobre design modular, padrões de arquitetura de software, e como aplicar segmentação para melhorar a manutenção e escalabilidade de sistemas. A segmentação é crucial para o desenvolvimento de sistemas complexos e para facilitar o trabalho em equipe.</p>
+                <button onclick="abrirModal('#modal3')">Sobre</button>
             </div>
             <div class="box">
                 <h2>BACK-END</h2>
                 <br>
                 <img src="back.jpg" alt="Desenvolvimento de Aplicativos" style="width:80%; height: auto; border-radius:20px;">
                 <p>Os alunos exploram o desenvolvimento do lado do servidor, aprendendo a criar e gerenciar bancos de dados, desenvolver APIs (Application Programming Interfaces), e garantir a segurança e desempenho do servidor. Tecnologias como Node.js, Python, Java, e SQL são comuns nessa disciplina. O foco é garantir que os dados sejam processados de forma eficiente e segura.</p>
+                <button onclick="abrirModal('#modal4')">Sobre</button>
             </div>
             <div class="box">
                 <h2>ARQUITETURA DE SISTEMAS</h2>
                 <br>
                 <img src="arquitetura.jpg" alt="Desenvolvimento de Aplicativos" style="width:80%; height: auto; border-radius:20px;">
                 <p>Nesta disciplina, os alunos aprendem sobre o planejamento e a estruturação de sistemas de software complexos. São exploradas diferentes arquiteturas, como cliente-servidor, microservices, e cloud computing. A disciplina enfatiza a importância de escolher a arquitetura correta para atender às necessidades específicas de um projeto.</p>
+                <button onclick="abrirModal('#modal5')">Sobre</button>
             </div>
             <div class="box">
                 <h2>DESENVOLVIMENTO DE SOFTWARE</h2>
                 <br>
                 <img src="desenvolvimento.jpg" alt="Desenvolvimento de Aplicativos" style="width:80%; height: auto; border-radius:20px;">
                 <p>Os alunos estudam metodologias e práticas para o desenvolvimento eficaz de software. Isso inclui metodologias ágeis (como Scrum e Kanban), testes de software, controle de versão, e integração contínua. A disciplina prepara os alunos para trabalhar em equipes de desenvolvimento, garantindo que os projetos sejam entregues dentro do prazo e com alta qualidade.</p>
+                <button onclick="abrirModal('#modal6')">Sobre</button>
             </div>
             <div class="box">
                 <h2>O QUE VOCÊ IRÁ APRENDER?</h2>
                 <br>
                 <p>No curso de Desenvolvimento de Sistemas, você adquirirá habilidades práticas e teóricas para criar, manter e evoluir sistemas de software. Desde a interface de usuário até a lógica de negócios e a gestão de dados, o curso oferece uma formação completa que prepara você para os desafios do mercado de trabalho na área de tecnologia.</p>
+                <button onclick="abrirModal('#modal7')">Sobre</button>
+            </div>
+        </div>
+    
+</div>
+
+            
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenvolvimento de Aplicativos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O que é um aplicativo? <br> <br>
+                        No mundo digital de hoje, os aplicativos são ferramentas indispensáveis que facilitam nossas vidas de inúmeras maneiras. 
+                        Um aplicativo é um software projetado para realizar tarefas específicas para o usuário. Eles podem ser executados em dispositivos móveis, como smartphones e tablets, ou em computadores. Com o crescimento exponencial do uso de dispositivos móveis, os aplicativos se tornaram uma parte integral de nosso dia a dia, 
+                        ajudando-nos a comunicar, aprender, trabalhar, entreter e realizar diversas outras atividades.</p>
+                        <br>
+                        <p>Por que desenvolver um aplicativo? <br> <br> 
+                            Desenvolver um aplicativo pode ser uma oportunidade empolgante e lucrativa. Existem várias razões pelas quais você pode querer criar um aplicativo:
+                            <br>
+                            Resolver um Problema: Muitos aplicativos de sucesso começaram como uma solução para um problema específico. Identificar uma necessidade ou uma dor no mercado e criar um aplicativo que ofereça uma solução pode atrair muitos usuários.
+                            <br>
+                            Oportunidade de Negócio: Aplicativos podem ser uma excelente maneira de iniciar um negócio. Eles podem gerar receita através de vendas diretas, assinaturas, publicidade ou compras dentro do aplicativo.                           
+                        </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
             </div>
         </div>
     </div>
+    
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Front-End 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>HTML: <br> Sigla para HyperText Markup Language. <br> Função: Define a estrutura e o conteúdo de uma página web, como títulos, parágrafos, imagens, links e formulários.
+                     <br> Exemplo: (p)Este é um parágrafo de texto.(p). <br> Imagine o HTML como os ossos e os músculos do corpo humano, fornecendo a estrutura básica da página.
+                     <br> CSS: <br> Sigla para Cascading Style Sheets. <br>
+                     Função: Estiliza a aparência do conteúdo HTML, definindo cores, fontes, tamanhos, layout e outros aspectos visuais. <br> Exemplo: body { font-family: Arial, sans-serif; color: #333; }. <br> Imagine o CSS como a pele, o cabelo e as roupas do corpo humano, tornando a página bonita e agradável de se ver.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Segmentação de Software</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal 1 body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal4" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Back-End</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal 1 body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal5" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Arquitetura de Sistemas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal 1 body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal6" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenvolvimento de Software</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal 1 body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal7" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">O Que Você Irá Aprender?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal 1 body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
 <br> <br> <br> <br> <br> <br> <br> 
 
 <iframe width="1000" height="500" src="https://www.youtube.com/embed/Ejkb_YpuHWs?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" title="Começa aqui o novo @CursoemVideo de HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -248,10 +433,13 @@
 
     
 
+    
+
 
 
     
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
