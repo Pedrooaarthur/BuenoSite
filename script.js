@@ -14,3 +14,8 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 
 }
+
+function abrirModal(modalId) {
+    var myModal = new bootstrap.Modal(document.querySelector(modalId));
+    myModal.show();
+}
