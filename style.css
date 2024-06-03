@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0f79ba;
+    background: linear-gradient(#fff, #0f79ba);
     color: rgb(255, 255, 255)09, 44, 44;
 }
 
@@ -24,7 +24,7 @@ header {
 .loader {
     display: flex;
     font-size: 2rem;
-    color: white;
+    color: #0f79ba;
     position: relative;
 }
 
@@ -129,39 +129,63 @@ span {
     animation-delay: 5.4s;
 }
 
-#artext {
-background: linear-gradient(to left,
-#ffffff, #0015ff, #ffffff);
-background-clip: text;
-display: inline;
-color: transparent;
-animation: animated 5s linear infinite;
-
-}
 @keyframes animated{
     to {background-position-x: 161px;}
 }
 
-.search-bar {
-    display: flex;
-    align-items: center;
-    
-}
 
-.search-bar input {
+.search-box {
+    background: #0f79ba;
+    height: 40px;
     padding: 10px;
-    border: none;
-    border-radius: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.search-bar button {
-    background-color: transparent;
+.search-txt {
     border: none;
-    cursor: pointer;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
 }
+
+::-webkit-input-placeholder {
+    color #fff;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: ##0f79ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: #f0f5fb;
+}
+
+
+
+
 
 nav {
-    background-color: #fff; /* Adicionando a cor de fundo branca */
+    background-color: #0f79ba; /* Adicionando a cor de fundo branca */
 }
 
 nav ul {
@@ -179,7 +203,7 @@ nav ul li a {
     display: block;
     padding: 15px 20px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px; /* Defina o tamanho da fonte desejado, por exemplo, 16px */
 }
 
@@ -187,7 +211,7 @@ nav ul li a {
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: #fff;
+    background-color: #0f79ba;
     border: 1px solid #000000;
 }
 
@@ -206,13 +230,13 @@ nav ul li a {
     text-align: center;    
     margin-top: 50px; /* Ajuste conforme necessário para posicionar o texto na página */
     padding: 20px;
-    background-color: rgb(255, 255, 255); /* Fundo branco com transparência */
+    background-color: #0f79ba;     
     border-radius: 10px; /* Borda arredondada */
     max-width: 800px; /* Defina a largura máxima do texto para evitar que ele se estenda demais na página */
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar o texto */
-    color: #1a237e; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
 }
 
 .main-text p {
@@ -520,8 +544,8 @@ footer {
     margin: 0 auto;
     padding: 30px;
     border-radius: 10px;
-    background-color: #41dbf7;
-    color: #ff0180;
+    background-color: #0f79ba;
+    color: #ffffff;
 }
 
 .header {
@@ -550,7 +574,7 @@ footer {
 }
 
 .box h2 {
-    color: #ff0180;
+    color: #000000;
     font-size: 1.5em;
     line-height: 1.6;
 
