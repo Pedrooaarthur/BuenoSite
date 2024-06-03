@@ -19,3 +19,4 @@ function abrirModal(modalId) {
     var myModal = new bootstrap.Modal(document.querySelector(modalId));
     myModal.show();
 }
+
